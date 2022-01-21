@@ -16,13 +16,8 @@ import socket from './services/socket';
 import NodeRSA from 'node-rsa';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDlZ3lau-4mVu9upxehozUC7bNIs83GNmI",
-  authDomain: "acschat-ea681.firebaseapp.com",
-  projectId: "acschat-ea681",
-  storageBucket: "acschat-ea681.appspot.com",
-  messagingSenderId: "544409209642",
-  appId: "1:544409209642:web:6214a15348169c9956ac53",
-  measurementId: "G-51WN41WWXZ"
+//Add creds here
+  
 })
 
 const auth = firebase.auth();
